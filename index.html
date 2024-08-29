@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naryad qidirish</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <h2>Naryad qidirish</h2>
+    <form>
+        <label for="folderPath">Papkani tanlang</label>
+        <input type="file" id="folderPath" webkitdirectory directory multiple>
+        <br>
+        <label for="searchName">Nima qidirvossiz:</label>
+        <input type="text" id="searchName" placeholder="Yozing...">
+        <br>
+        <button class="form-btn">Qidirish</button>
+    </form>
+    <div id="result"></div>
+    <div class="loading"></div>
+
+    <pre class="last-result"></pre>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
